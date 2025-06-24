@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/phim")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://famous-tanuki-7e3996.netlify.app")
 public class PhimController {
 
     @Autowired

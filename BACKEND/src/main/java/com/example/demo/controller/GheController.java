@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/ghe")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://famous-tanuki-7e3996.netlify.app")
 public class GheController {
     @Autowired
     private GheService gheService;

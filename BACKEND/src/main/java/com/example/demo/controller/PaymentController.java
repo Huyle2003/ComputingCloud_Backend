@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/payment")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://famous-tanuki-7e3996.netlify.app")
 public class PaymentController {
     @Autowired
     private DatVeService datVeService;

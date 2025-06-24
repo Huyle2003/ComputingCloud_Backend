@@ -18,7 +18,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/lichchieu")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://famous-tanuki-7e3996.netlify.app")
 public class LichChieuController {
     @Autowired
     private LichChieuService lichChieuService;
